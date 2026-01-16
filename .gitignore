@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+.npm
+.yarn
+#Environment Variables
+.env
+.env.local
+.env*.local
+# Build outputs
+.next/
+dist/
+out/
+#Logs
+*.log
+logs/
+#OS files
+.DS_store
+Thumbs.db
+#IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+#Terraform
+.terroform/
+*.tfstate
+cat > .gitignore << 'EOF'
+# Dependencies
+node_modules/
+.npm
+.yarn
+#Environment Variables
+.env
+.env.local
+.env*.local
+# Build outputs
+.next/
+dist/
+out/
+#Logs
+*.log
+logs/
+#OS files
+.DS_store
+Thumbs.db
+#IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+#Terraform
+.terroform/
+*.tfstate
+
+.tfstate.backup
+#Docker
+docker-compose.override.yml
